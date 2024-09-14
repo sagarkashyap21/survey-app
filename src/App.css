@@ -49,7 +49,7 @@
   
     }
   }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 530px) {
     .container{
       height: 70vh;
     }
@@ -57,7 +57,7 @@
   @media screen and (max-width: 425px) {
   .container{
     padding: 0 1rem 0 1.5rem;
-    /* height: 65vh; */
+    height: 70vh;
   }
   }
   /* @media screen and (max-width: 320px) {
