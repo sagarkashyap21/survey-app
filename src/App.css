@@ -41,6 +41,7 @@
   @media screen and (max-width: 1024px) {
     .container{
       width: 60vw;
+      height: 80vh;
     }
   }
   @media screen and (max-width: 768px ) {
@@ -51,17 +52,24 @@
   }
   @media screen and (max-width: 530px ) {
     .container{
-      height: 70vh;
+      height: 98vh;
+      
     }
   }
   @media screen and (max-width: 425px) {
   .container{
     padding: 0 1rem 0 1.5rem;
-    height: 65vh;
+    height: 98vh;
+
+  }
+  button{
+    width: 10rem;
+    margin: 1rem 1rem 0 0;
   }
   }
-  /* @media screen and (max-width: 320px) {
-    .container{
-      height: 70vh;
-    }
-  } */
+  @media screen and (max-width:375px){ 
+    button {
+      width: 10rem;
+      display: block;
+  }
+  }
