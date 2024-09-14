@@ -12,7 +12,7 @@ const ThankYouScreen = ({ onReturn }) => {
   return (
     <div>
       <h1>Thank you for your time!</h1>
-      <p style={{margin:".6rem 0 0 .4rem"}}>We appreciate your feedback.</p>
+      <p style={{margin:".6rem 0 0 .3rem"}}>We appreciate your feedback.</p>
     </div>
   );
 };
