@@ -117,7 +117,7 @@ height: 80vh;
       width: 14rem;
   }
   }
-  @media screen and (max-width: 645px )  {
+  @media screen and (max-width: 645px ) and (max-height:320px) {
 .container{
   height: 85vh;
   width: 72vw;
