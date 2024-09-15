@@ -4,7 +4,7 @@ const WelcomeScreen = ({ onStart }) => {
   return (
     <div>
       <h1>Customer Survey</h1>
-      <button onClick={onStart}>Start Survey</button>
+      <button id="surveybutton" onClick={onStart}>Start Survey</button>
     </div>
   );
 };

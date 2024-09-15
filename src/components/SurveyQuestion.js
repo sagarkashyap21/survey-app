@@ -50,12 +50,12 @@ const SurveyQuestion = ({ currentQuestionIndex, onNext, onPrevious, onSkip, onSu
         />
       )}
       <div>
-        <button onClick={onPrevious} disabled={currentQuestionIndex === 0}>Previous</button>
-        <button onClick={onSkip}>Skip</button>
+        <button className="btn"  onClick={onPrevious} disabled={currentQuestionIndex === 0}>Previous</button>
+        <button className="btn" onClick={onSkip}>Skip</button>
         {currentQuestionIndex < questions.length - 1 ? (
-          <button onClick={handleSubmit}>Next</button>
+          <button className="btn" onClick={handleSubmit}>Next</button>
         ) : (
-          <button onClick={handleSubmit}>Submit</button>
+          <button className="btn" onClick={handleSubmit}>Submit</button>
         )}
       </div>
     </div>
