@@ -116,6 +116,13 @@ height: 70vh;
       width: 14rem;
   }
   }
+  @media screen and (max-width: 645px )  {
+.container{
+  height: 78vh;
+  width: 72vw;
+}
+  }
+
 
   @media screen and (max-width: 425px )  {
     .container{
