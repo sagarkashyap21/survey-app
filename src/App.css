@@ -96,7 +96,8 @@
   @media screen and (max-width: 768px ) {
     .container{
 width: 70vw; 
-height: 70vh; 
+/* height: 70vh;  */
+height: 80vh;
     }
     h1{
       font-size: 3rem;
@@ -118,8 +119,11 @@ height: 70vh;
   }
   @media screen and (max-width: 645px )  {
 .container{
-  height: 78vh;
+  height: 85vh;
   width: 72vw;
+}
+btn{
+  width: 6rem;
 }
   }
 
