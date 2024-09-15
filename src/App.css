@@ -132,7 +132,7 @@ height: 80vh;
 }
   }
 
-  @media screen and (max-width: 425px )  {
+  @media screen and (max-width: 425px )   {
     .container{
       width: 78vw;
       height: 55vh;
@@ -157,6 +157,11 @@ height: 80vh;
     }
     input{
       width: 5rem;
+    }
+  }
+  @media screen and (max-width: 425px ) {
+    .container{
+      height: 80vh;
     }
   }
   @media screen and (max-width: 375px ) {
