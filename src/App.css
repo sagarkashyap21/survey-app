@@ -159,7 +159,7 @@ height: 80vh;
       width: 5rem;
     }
   }
-  @media screen and (max-width: 425px ) {
+  @media screen and (max-width: 415px ) {
     .container{
       height: 80vh;
     }
