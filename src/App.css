@@ -83,7 +83,7 @@
   } */
   @media screen and (max-width: 930px ) {
     .container{
-    height: 65vh;
+    height: 70vh;
     width: 60vw;
     }
     .btn{
@@ -95,7 +95,8 @@
 
   @media screen and (max-width: 768px ) {
     .container{
-width: 70vw;  
+width: 70vw; 
+height: 70vh; 
     }
     h1{
       font-size: 3rem;
@@ -107,10 +108,6 @@ width: 70vw;
     p{
       font-size: 1.6rem;
     }
-    /* .btn{
-      width: 8rem;
-      font-size: 1.5rem;
-    } */
     .btn {
       width: 7rem;
       font-size: 1.2rem;
