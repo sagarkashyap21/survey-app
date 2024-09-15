@@ -160,8 +160,12 @@ height: 80vh;
     }
   }
   @media screen and (max-width: 415px ) {
-    .container{
+    /* .container{
       height: 80vh;
+    } */
+    .btn{
+      padding: 1rem;
+      margin: 1rem 1rem 0 0;
     }
   }
   @media screen and (max-width: 375px ) {
