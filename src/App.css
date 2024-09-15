@@ -126,7 +126,11 @@ height: 80vh;
   width: 6rem;
 }
   }
-
+  @media screen and (max-width: 635px ) and (min-width:425px) {
+.container{
+  height: 78vh;
+}
+  }
 
   @media screen and (max-width: 425px )  {
     .container{
