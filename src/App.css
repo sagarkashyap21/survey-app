@@ -216,5 +216,10 @@ height: 80vh;
   button{
     font-size: 1rem;
   }
-
+  p{
+    font-size: 1rem;
+  }
+  .question {
+    margin: .5rem 0 .5rem 0;
+}
 }
